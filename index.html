@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>SnakeGame</title>
+   
+</head>
+<body>
+    <audio id="pop">
+        <source src="/Users/balthazarely/school/sei_autumn_sweaters/classwork/7_8/game_project/sounds/zapsplat_cartoon_pop_mouth_006_28806.mp3" type="audio/mpeg">
+    </audio>
+ 
+
+    <div id="scorebox"></div>
+    <div id="databox"></div>
+    <h6> SCORE:<span id='game-clock'></span></h6>
+    <h6 id="instructions"> INSTRUCTIONS</h6>
+    <div class="instructions">  
+        <p> Use the arrow keys to move the green snake to catch the apples as they appear. Make sure not to run into the wall or yourself! If you try to move in the direction you were just coming from, that will kill you!</p>
+    </div>
+    <img src="/Users/balthazarely/school/sei_autumn_sweaters/classwork/7_8/game_project/images/5a293630cf1452.9340139215126502888482.png" id="arrowimage">
+
+    
+    <div id="main-board">
+        <div id="game-board">
+        </div>
+    <div class="start-screen">
+        <h1>SNAKE</h1>
+        <h3>PRESS ANY ARROW KEY TO START</h3>
+        <h5 class="high-score">INSERT COINS</h5>
+    </div>
+    <div class="game-over">
+        <h1 id="game-over">GAME OVER</h1>
+        <div><button id="resetgame">PLAY AGAIN</button></div>
+
+    </div>
+    <div id="arrowimage"></div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
