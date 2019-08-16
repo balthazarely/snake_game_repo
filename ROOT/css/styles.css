@@ -8,6 +8,19 @@
 
 }
 
+
+#arrowimage {
+    position: absolute;
+    right: 20%;
+    top: 43%;
+    height: 100px;
+    width: auto;
+    animation: flashes;
+    animation-duration: 1.2s;
+
+ 
+} 
+
 #main-board {
     padding: 10px;
     margin-top: 75px;
@@ -177,7 +190,7 @@ button:hover {
 .square {
     display: inline-block;
     position: relative;
-    background-image: url("/Users/balthazarely/school/sei_autumn_sweaters/classwork/7_8/game_project/images/asfalt-light.png");
+    background-image: url("../images/asfalt-light.png");
     background-color: #40324C;
     height: 20px;
     width: 20px;
@@ -237,16 +250,6 @@ button:hover {
     animation-duration: 1.2s;
 }
 
-#arrowimage {
-    position: absolute;
-    right: 20%;
-    top: 43%;
-    height: 100px;
-    width: auto;
-     animation: flashes;
-    animation-duration: 1.2s;
-    background-image: url("/Users/balthazarely/school/sei_autumn_sweaters/classwork/7_8/game_project/images/5a293630cf1452.9340139215126502888482.png");
-}
 
 .flex-container {
     display: flex;
